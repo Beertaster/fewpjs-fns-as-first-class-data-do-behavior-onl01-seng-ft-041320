@@ -14,14 +14,14 @@ function greet(str) {
   if (paseInt(str) < 12) {
     return "Good Morning";
   }
-  else if ( parseInt(str) > 17 {
+  else if ( parseInt(str) > 17) {
     return "Good Evening";
   }
   else {
       return "Good Afternoon";
     }
-  }) 
-  }
+   
+  
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(msg){
