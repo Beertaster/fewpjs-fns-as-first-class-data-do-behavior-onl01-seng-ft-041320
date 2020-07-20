@@ -11,7 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(str) {
-  if (paseInt(str) < 12) {
+  if (parseInt(str) < 12) {
     return "Good Morning";
   }
   else if ( parseInt(str) > 17) {
